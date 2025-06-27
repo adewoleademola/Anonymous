@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jfif" sizes="32x32" href="download.jfif">
+    <title>STUDENT COMPLAINT ANONYMOUS BOX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="matter">
+        <h1>FPI/FUTI COMPLAINT AND SUGGESTION BOX</h1>
+        <h2>Your Voice Matters</h2>
+        <p>Report concerns, complaint or incidents safely and anonymously. Help us <br>create a better learning environment for everyone</p>
+    </div>
+    <div class="information">
+        <div class="anonymous anonymous-one">
+            <img src="img3.png" alt="">
+            <h3>Completely Anonymous</h3>
+            <p>All personal information is collected or stored.</p>
+        </div>
+        <div class="anonymous anonymous-two">
+            <img src="img1.png" alt="">
+            <h3>Confidential Review</h3>
+            <p>Reports are reviewed by authorized personnel only.</p>
+        </div>
+        <div class="anonymous anonymous-three">
+            <img src="img2.png" alt="">
+            <h3>Prompt Action</h3>
+            <p>All reports are investigated and addressed quickly.</p>
+        </div>
+    </div>
+    <form id="complaintForm">
+        <h2 class="text">Submit a Complaint</h2>
+        <p>Fill out the form below to report your concern.All fields marked with * are required.</p>
+        <label for="matric">Matric Number*</label>
+        <input type="text" placeholder="Enter Matric Number">
+        <label for="category">Category*</label>
+        <select>
+            <option>Select a Complaint Category</option>
+            <option>Bullying and Harrassement</option>
+            <option>Overloded Timetable or Homework</option>
+            <option>Inadequate Facillities</option>
+            <option>Exam or Result Issues</option>
+            <option>Poor Communication from School</option>
+            <option>Unfair Disciplinary Actions</option>
+            <option>Insecurity or Safety Concerns</option>
+            <option>Inconsistent School Calendar</option>
+            <option>Uncooperative Students or Parent</option>
+            <option>Harshness of Teachers towards student</option>
+            <option>Lack of Resources</option>
+            <option>Poor Teaching Quality</option>
+            <option>Unfair Treatment</option>
+        </select>
+        <label for="subject">Subject*</label>
+        <input type="text" placeholder="Brief description of the issue">
+        <label for="description">Detailed Description*</label>
+        <textarea rows="10" cols="40" placeholder="Please provide a detailed description of your complaint."></textarea>
+        <label for="location">Location(optional)</label>
+        <input type="text" placeholder="Where did this incident occur?">
+        <label for="date">Date of incident(optional)</label>
+        <input type="date">
+        <p id="option">This form is completely anonymous. No personal information, IP address, or identifying data is collected.</p>
+        <button type="submit" id="submitBtn">Sumbit Complaint</button>
+    </form>
+    <p id="describe">Your complaint will be reviewed within 48 hours. Serious matters will be addressed immediately.</p>
+    <script src="main.js"></script>
+</body>
+</html>
